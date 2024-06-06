@@ -9,8 +9,8 @@ import time
 import matplotlib.pyplot as plt
 
 # Initialize paths and providers
-extractor_path = "/home/user/Light/LightGlue-ONNX/weights/superpoint.onnx"
-lightglue_path = "/home/user/Light/LightGlue-ONNX/weights/superpoint_lightglue.onnx"
+extractor_path = "superpoint.onnx"
+lightglue_path = "superpoint_lightglue.onnx"
 providers = ["CUDAExecutionProvider", "CPUExecutionProvider"]
 
 runner = LightGlueRunner(
